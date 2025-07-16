@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux'
 import { formatCurrency } from '../Utils/utils'
-import { SHOW_POPUP } from '../../stores/Popup'
+import { SHOW_POPUP } from '../../stores/popup'
 const ProductList = ({ data }) => {
     const dispatch = useDispatch()
 
