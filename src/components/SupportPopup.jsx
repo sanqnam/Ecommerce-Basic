@@ -11,7 +11,7 @@ const SupportPopup = ({ open }) => {
 
 
   return open ? (
-    <div className="fixed bottom-[150px] right-6 w-[350px] h-[450px] bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden z-50 italic">
+    <div className="fixed bottom-[150px] right-6 sm:w-[350px] sm:h-[450px] w-[250px] h-[400px] bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden z-50 italic">
       {/* Header */}
       <div className="bg-white px-4 py-3 border-b flex justify-between items-center">
         <h3 className="font-semibold text-lg text-black">Customer Support</h3>

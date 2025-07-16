@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { formatCurrency } from '../Utils/utils'
+import { formatCurrency, saveProductToHistory } from '../Utils/utils'
 import { motion } from "framer-motion";
 import { useNavigate } from 'react-router-dom';
 const ProductsList = ({ products }) => {
@@ -7,6 +7,7 @@ const ProductsList = ({ products }) => {
     const navigate = useNavigate()
     const detailHandler = (item) => {
         const id = item._id.$oid
+        saveProductToHistory(item)
         navigate(`/shop/detail/${id}`)
     }
     return (

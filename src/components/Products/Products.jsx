@@ -5,7 +5,7 @@ const Products = () => {
     const data = useLoaderData()
     return (
         <section className="text-neutral-950 mb-10">
-            <div className="mb-10">
+            <div className="mb-10 lg:ml-0 ml-3">
                 <p className="italic text-sm text-neutral-500 ">
                     MADE THE HARD WAY
                 </p>

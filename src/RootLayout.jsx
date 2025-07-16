@@ -33,7 +33,7 @@ const RootLayout = () => {
 
             
             <button
-                className="bg-gray-900 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all fixed bottom-13 right-10 text-4xl cursor-pointer"
+                className="bg-gray-900 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg transition-all fixed bottom-13 right-10 sm:text-4xl text-2xl cursor-pointer"
                 aria-label="Support"
                 onClick={supportHandler}
             >

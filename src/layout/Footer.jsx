@@ -1,42 +1,42 @@
 const Footer = () => {
     return (
-        <footer className="w-full py-15 bg-neutral-950 text-white">
-            <div className="max-w-[1100px] m-auto grid grid-cols-12">
-                <div className="col-span-3">
-                    <h3 className="font-medium italic mb-2 ">
-                        CUSTOMER SERVICES
-                    </h3>
-                    <ul className="text-neutral-600 text-sm italic">
-                        <li><a href="/"></a>Help & Contact us</li>
-                        <li><a href="/"></a>Return & Refunds</li>
-                        <li><a href="/"></a>Online Stores</li>
-                        <li><a href="/"></a>Terms & Conditions</li>
-                    </ul>
-                </div>
-                <div className="col-span-4">
-                <h3 className="font-medium italic mb-2 ">
-                COMPANY
-                    </h3>
-                    <ul className="text-neutral-600 text-sm italic">    
-                        <li><a href="/"></a>What We Do </li>
-                        <li><a href="/"></a>Available Services</li>
-                        <li><a href="/"></a>Latest Posts</li>
-                        <li><a href="/"></a>FAQS</li>
-                    </ul>
-                </div>
-                <div className="col-span-5 r">
-                <h3 className="font-medium italic mb-2 ">
-                SOCIAL MEDIA 
-                    </h3>
-                    <ul className="text-neutral-600 text-sm italic">
-                        <li><a href="/"></a>Twitter </li>
-                        <li><a href="/"></a>Instagram </li>
-                        <li><a href="/"></a>Facebook </li>
-                        <li><a href="/"></a>Pinterest</li>
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    )
-}
-export default Footer
+      <footer className="w-full py-10 bg-neutral-950 text-white">
+        <div className="max-w-[1100px] mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          
+          <div>
+            <h3 className="font-medium italic mb-2">CUSTOMER SERVICES</h3>
+            <ul className="text-neutral-400 text-sm italic space-y-1">
+              <li><a href="/">Help & Contact us</a></li>
+              <li><a href="/">Return & Refunds</a></li>
+              <li><a href="/">Online Stores</a></li>
+              <li><a href="/">Terms & Conditions</a></li>
+            </ul>
+          </div>
+  
+          <div>
+            <h3 className="font-medium italic mb-2">COMPANY</h3>
+            <ul className="text-neutral-400 text-sm italic space-y-1">
+              <li><a href="/">What We Do</a></li>
+              <li><a href="/">Available Services</a></li>
+              <li><a href="/">Latest Posts</a></li>
+              <li><a href="/">FAQS</a></li>
+            </ul>
+          </div>
+  
+          <div>
+            <h3 className="font-medium italic mb-2">SOCIAL MEDIA</h3>
+            <ul className="text-neutral-400 text-sm italic space-y-1">
+              <li><a href="/">Twitter</a></li>
+              <li><a href="/">Instagram</a></li>
+              <li><a href="/">Facebook</a></li>
+              <li><a href="/">Pinterest</a></li>
+            </ul>
+          </div>
+  
+        </div>
+      </footer>
+    );
+  };
+  
+  export default Footer;
+  

@@ -9,6 +9,7 @@ import ProductDetail from './components/shop/ProductDetail'
 import SignIn, { action as signInAction } from './components/auth/SignIn'
 import SignUp, { action as signUpAction } from './components/auth/SignUp'
 import Cart from './components/cart/Cart'
+import FavoritePage from './page/favorite/FavoritePage'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
         path :'/shop/:category',
         element: <ShopPage />,
         loader: loaderProducts
+      },
+      {
+        path :'/favorite',
+        element: <FavoritePage />
       },
       {
         path:'/shop/detail/:idProduct',
