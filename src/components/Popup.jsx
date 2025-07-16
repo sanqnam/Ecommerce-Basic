@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect, useRef } from "react";
-import { HIDE_POPUP } from "../stores/Popup";
+import { HIDE_POPUP } from "../stores/popup";
 import { formatCurrency } from "./Utils/utils";
 import { NavLink } from "react-router-dom";
 
