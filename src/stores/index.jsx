@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import popupReducer from '../stores/Popup'
+import popupReducer from './popup'
 import productsReducer from './products'
 import userReducer from './user'
 const store = configureStore({
