@@ -23,10 +23,13 @@ Deployed on **Vercel Hosting**.--
 ### 1️⃣ Clone the repository
 git clone https://github.com/sanqnam/Ecommerce-Basic.git
 cd Ecommerce-Basic
+
 2️⃣ Install dependencies
 npm install
+
 3️⃣ Run development server
 npm run dev
+
 📦 Build for Production
 npm run build
 This creates the dist/ folder with optimized production assets.
