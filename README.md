@@ -1,12 +1,32 @@
-# React + Vite
+# 🛒 Ecommerce Basic
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce website built with **React + Vite** and styled using **Tailwind CSS**.  
+Deployed on **Vercel Hosting**.--
 
-Currently, two official plugins are available:
+## 📸 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌐 [View Live Site] https://ecommerce-basic-three.vercel.app/
+---
 
-## Expanding the ESLint configuration
+## ⚙️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React
+- ⚡ Vite
+- 💨 Tailwind CSS
+- 🔥 Firebase
+- Vercel hosting
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+git clone https://github.com/sanqnam/Ecommerce-Basic.git
+cd Ecommerce-Basic
+2️⃣ Install dependencies
+npm install
+3️⃣ Run development server
+npm run dev
+📦 Build for Production
+npm run build
+This creates the dist/ folder with optimized production assets.
