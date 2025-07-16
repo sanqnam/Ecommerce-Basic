@@ -27,7 +27,8 @@ const ProductDetail = () => {
 
     useEffect(() => {
         const result = data.find(prd => prd._id.$oid === idProduct)
-        const history = getLocalStorege('viewHistory')
+        const history = getLocalStorege('viewHistory') || []
+        console.log('aa',history)
         setViewHistory(history)
         const category = result.category
         const resultCate = data.filter(prd => prd.category === category)
@@ -150,7 +151,7 @@ const ProductDetail = () => {
             </div>
             {/* view history product */}
             {/* View History */}
-            <div className="md:col-span-2 mt-12">
+            {viewHistory.length > 0 && <div className="md:col-span-2 mt-12">
                 <h3 className="text-lg font-semibold mb-4 text-neutral-950 italic mx-2 sm:mx-0">VIEW HISTORY PRODUCTS</h3>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mx-2 sm:mx-0">
                     {viewHistory.map((item, index) => (
@@ -171,7 +172,8 @@ const ProductDetail = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div>}
+
             );
             {showNoti && (
                 <Noti message="🛒 Đã thêm sản phẩm vào giỏ hàng!" onClose={() => setShowNoti(false)} />
